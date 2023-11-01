@@ -1,5 +1,8 @@
 function tocaSom(idElementoaudio){
     document.querySelector(idElementoaudio).play();
+    if (elemento == null) {
+        alert('elemento não encontrado');
+    }
 }
 const listaDeTeclas=document.querySelectorAll('.tecla');
 //estrutura de repetição - enquanto
